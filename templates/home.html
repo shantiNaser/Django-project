@@ -7,11 +7,51 @@
 </head>
 
 <body>
-    <h1> Palestine Car Price Prediction</h1>
+    <h1> Palestine Vehicle Price Prediction</h1>
+    <h2>Welcome to our car price prediction Website</h2>
+    <p>How much is your car really worth?</p>
 
     <form action="{% url 'res' %}">
 
-        <input type="text" required name="R1"> <br><br>
+        Vehicle text information:
+
+        Make Name ----> <input type="text" required name="Make" placeholder="Ex: skoda"> <br><br>
+        Model Name ----> <input type="text" required name="Model" placeholder="Ex: octavia"> <br><br>
+        Type ----> <input type="text" required name="type" placeholder="Ex: sedan"> <br><br>
+        Color ----> <input type="text" required name="Color" placeholder="Ex: white"> <br><br>
+        Fuel Type ----> <input type="text" required name="fuel" placeholder="Ex: petrol/diesel"> <br><br>
+        History ----> <input type="text" required name="history" placeholder="Ex: private/Taxi/..."> <br><br>
+        Gear Type ----> <input type="text" required name="gear" placeholder="Ex: automatic/manual"> <br><br>
+        payment_methoud ----> <input type="text" required name="py" placeholder="Ex: cash/installment"> <br><br>
+        window -----> <input type="text" required name="windo" placeholder="Ex: electric/windm"> <br><br>
+        <br><br><br><br><br><br><br><br><br>
+
+        Vehicle number information:
+
+        Number of passenger ----> <input type="number" required name="pass" placeholder="Ex: 5"> <br><br>
+        Year of produce ----> <input type="number" required name="pass" placeholder="Ex: 2014"> <br><br>
+        Engaine Size ----> <input type="number" required name="pass" placeholder="Ex: 1600"> <br><br>
+        Kilometers ----> <input type="number" required name="pass" placeholder="Ex: 100000"> <br><br>
+        previous owner ----> <input type="number" required name="pass" placeholder="Ex: 2"> <br><br>
+
+        Additional Features
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="1">
+        <label for="vehicle1"> I have alarm</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="1">
+        <label for="vehicle2"> I have Ac</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="1">
+        <label for="vehicle3"> I have radio_cd</label><br><br>
+        <input type="checkbox" id="vehicle4" name="vehicle4" value="1">
+        <label for="vehicle4"> I have radio_cd</label><br><br>
+        <input type="checkbox" id="vehicle5" name="vehicle5" value="1">
+        <label for="vehicle5"> I have radio_cd</label><br><br>
+        <input type="checkbox" id="vehicle6" name="vehicle6" value="1">
+        <label for="vehicle6"> I have radio_cd</label><br><br>
+        <input type="checkbox" id="vehicle7" name="vehicle7" value="1">
+        <label for="vehicle7"> I have radio_cd</label><br><br>
+        <input type="checkbox" id="vehicle8" name="vehicle8" value="1">
+        <label for="vehicle8"> I have radio_cd</label><br><br>
+
 
         <input type="submit" name="" value="submit">
     </form>
