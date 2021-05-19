@@ -7,3 +7,7 @@ from django.http import HttpResponse
 def index(request):
     # return HttpResponse("Hello, World .. Test Deployment  ")
     return render(request, "home.html")
+
+
+def result(request):
+    return render(request, "result.html")
